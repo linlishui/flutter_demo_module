@@ -18,7 +18,7 @@ description: Flutter demo module.
 version: 0.0.1-SNAPSHOT1
 
 environment:
-  #  sdk: '>=2.19.0 <3.0.0'
+#  sdk: '>=2.19.0 <=3.0.5'
   sdk: '2.18.6'
   flutter: "3.3.10"
 
@@ -27,9 +27,9 @@ dependencies:
     sdk: flutter
 
   app_demo:
-#   path: ../app_demo
-    git:
-      url: git@github.com:linlishui/app_demo.git
+   path: ../app_demo
+#    git:
+#      url: git@github.com:linlishui/app_demo.git
 
 dev_dependencies:
   flutter_test:
